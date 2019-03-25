@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot :: button 1`] = `
+<SimpleButton
+  disabled={true}
+>
+  <Button
+    active={false}
+    disabled={true}
+    type="button"
+    variant="primary"
+  >
+    <button
+      className="btn btn-primary"
+      disabled={true}
+      type="button"
+    />
+  </Button>
+</SimpleButton>
+`;
+
+exports[`snapshot :: button 2`] = `
+<SimpleButton
+  disabled={true}
+>
+  <Button
+    active={false}
+    disabled={true}
+    type="button"
+    variant="primary"
+  >
+    <button
+      className="btn btn-primary"
+      disabled={true}
+      type="button"
+    />
+  </Button>
+</SimpleButton>
+`;
