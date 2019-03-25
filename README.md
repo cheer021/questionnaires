@@ -30,6 +30,7 @@ Technical:
 a) Use state management library (Redux or Mobx)
 b) More unit tests
 c) Adding full accessibility support (Keyboard and Screenreader)
+d) Test with multiple platforms (Windows,iPad) and browsers.  // Originally developed on Mac
 ```
 
 User Interface:
