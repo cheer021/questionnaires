@@ -1,0 +1,24 @@
+.container {
+    padding: 20px;
+}
+.editableLabel{
+    font-size: 40px;
+}
+.form-control {
+    border-radius: 0;
+}
+
+li.ui-state-default {
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+li.ui-state-default:last-child {
+    border-bottom: none;
+}
+
+.editing {
+    background-color: #FFFDE7;
+}
+  
