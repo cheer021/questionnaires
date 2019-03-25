@@ -29,6 +29,7 @@ Technical:
 ```
 a) Use state management library (Redux or Mobx)
 b) More unit tests
+c) Adding full accessibility support (Keyboard and Screenreader)
 ```
 
 User Interface:
@@ -36,6 +37,7 @@ User Interface:
 ```
 a) Input box validation that checks if the options are unique
 b) Include an option to switch between checkbox (multplie choices) and radio button (single choice)
+c) More user friendly UI
 ```
 
 
