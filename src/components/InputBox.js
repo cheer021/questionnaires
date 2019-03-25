@@ -1,11 +1,11 @@
 import React from 'react';
 import KEYCODES from '../constants/KEYCODES';
 import FormControl from 'react-bootstrap/FormControl'
-
+import {INPUT_TEXT} from '../resources/en_us';
 class InputBox extends React.Component {
 	constructor(props) {
 		super(props);
-		const defaultPlaceholder = 'Option';
+		const defaultPlaceholder = INPUT_TEXT;
 		this.state = {
 			text: props.placeholderText || defaultPlaceholder,
 			readonly: props.readonly

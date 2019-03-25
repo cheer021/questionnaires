@@ -25,7 +25,6 @@ class QuestionsList extends React.Component {
 				{questions.map(question =>
 					<Question question={question}></Question>
 				)}
-				{/* <Footer {...{ count }} /> */}
 
 				<Footer onDuplicateClick={this.onDuplicateClick.bind(this)}
 					onSubmitClick={this.onSubmitClick.bind(this)} />
