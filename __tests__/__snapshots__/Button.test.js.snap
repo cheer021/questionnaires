@@ -18,22 +18,3 @@ exports[`snapshot :: button 1`] = `
   </Button>
 </SimpleButton>
 `;
-
-exports[`snapshot :: button 2`] = `
-<SimpleButton
-  disabled={true}
->
-  <Button
-    active={false}
-    disabled={true}
-    type="button"
-    variant="primary"
-  >
-    <button
-      className="btn btn-primary"
-      disabled={true}
-      type="button"
-    />
-  </Button>
-</SimpleButton>
-`;

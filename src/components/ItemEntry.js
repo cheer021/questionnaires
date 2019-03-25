@@ -3,7 +3,7 @@ import RadioButton from './RadioButton';
 import InputBox from './InputBox';
 import SimpleButton from './Button';
 import InputGroup from 'react-bootstrap/InputGroup'
-import {DELETE_BTN_TEXT} from '../resources/en_us';
+import { DELETE_BTN_TEXT } from '../resources/en_us';
 class ItemEntry extends React.Component {
 	render() {
 		const { item, itemsLength, changeStatus, radioButtonsGroupName, changeItemText } = this.props;
@@ -17,22 +17,19 @@ class ItemEntry extends React.Component {
 							name={radioButtonsGroupName}
 							onChange={handleChange}
 							value={item.text} />
-					</InputGroup.Prepend>
-
-					<InputBox text={item.text}
-						id={item.id}
-						addNewItem={this.props.addNewItem}
-						handleTextChange={handleTextChange}
-					></InputBox>
-					<InputGroup.Append>
+						<InputBox text={item.text}
+							id={item.id}
+							addNewItem={this.props.addNewItem}
+							handleTextChange={handleTextChange}
+						></InputBox>
 						<SimpleButton
 							variant="light"
 							text={DELETE_BTN_TEXT}
 							disabled={itemsLength === 1}
 							id={item.id}
 							onClick={this.props.deleteItem}>{DELETE_BTN_TEXT}
-								</SimpleButton>
-					</InputGroup.Append>
+						</SimpleButton>
+					</InputGroup.Prepend>
 				</InputGroup>
 			</div>
 		);
