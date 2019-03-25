@@ -18,8 +18,25 @@ Run it
 $ npm start
 ```
 
-test it
+test it (only one test class for now)
 ```bash
 $ npm test
 ```
+
+## Future improvements
+
+Technical:
+```
+a) Use state management library (Redux or Mobx)
+b) More unit tests
+```
+
+User Interface:
+
+```
+a) Input box validation that checks if the options are unique
+b) Include an option to switch between checkbox (multplie choices) and radio button (single choice)
+```
+
+
 
